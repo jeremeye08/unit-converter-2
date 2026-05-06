@@ -1,0 +1,51 @@
+<!-- Unit Converter -->
+
+<!DOCTYPE html>
+<html lang="en" >
+    <head>
+
+        <!-- Meta Syntax -->
+        <meta charset="UTF=8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+
+        <!-- Title -->
+        <title>Unit Converter</title>
+
+        <!-- Link to CSS -->
+        <link rel="stylesheet" href="index.css">
+
+    </head>
+
+    <body>
+        <div id="container">
+
+            <!-- First Section -->
+            <div id="first-section">
+                <h1 id="main-heading">Metric/Imperial Unit Converter</h1>
+                <input id="user-input" type="text" autocomplete="off" oninput="validateInput(event)">
+                <button id="convert-btn">Convert</button>
+            </div>
+
+            <div id="second-section">
+                
+                <div class="box">
+                    <h2 class="box-headings">Length (Metres/Feet)</h2>
+                    <div class="conversion">
+                        <p class="conversions">
+                            <span class="user-value">1</span> metres = <span class="highlight" id="feet">3.281</span> feet
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </body>
+
+
+</html>
